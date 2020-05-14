@@ -41,4 +41,4 @@ if len(inputString)>=1 and  len(inputString)<10:
 else:
     print("The length of input should be in between 0 - 10")
 
-print("Total Execution Time = "+str(time.time() - start_time))
+print("Total Execution Time = "+str((time.time() - start_time)*1000)+"ms")
